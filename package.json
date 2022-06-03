@@ -1,0 +1,31 @@
+{
+  "homepage": "http://roselinearuljothi.github.io/REProject",
+  "name": "REProject",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "start": "nodemon app.js",
+    "predeploy":"npm run build",
+	"deploy": "gh-pages -d build",
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "body-parser": "^1.20.0",
+    "cookie-parser": "^1.4.6",
+    "cors": "^2.8.5",
+    "dotenv": "^16.0.1",
+    "express": "^4.18.1",
+    "express-validator": "^6.14.0",
+    "formidable": "^2.0.1",
+    "mongoose": "^5.13.14",
+    "morgan": "^1.10.0",
+    "nodemon": "^2.0.16",
+    "uuid": "^8.3.2"
+  },
+  "devDependencies": {
+    "gh-pages": "^4.0.0"
+  }
+}
